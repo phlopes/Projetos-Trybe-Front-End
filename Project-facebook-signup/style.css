@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+#signup-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputs {
+  width: 50%;
+}
+
+.inputs2 {
+  width: 100%;
+}
+
+#label-gender {
+  width: 100%;
+}
+
+#customGender {
+  display: none;
+  width: 100%;
+}
